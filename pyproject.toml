@@ -23,7 +23,7 @@ Documentation = "https://docs.litellm.ai"
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
 fastuuid = "0.14.0"
-httpx = "0.28.1"
+httpx = {version = "0.28.1", extras = ["http2"]}
 openai = "2.30.0"
 python-dotenv = "1.0.1"
 tiktoken = "0.12.0"
